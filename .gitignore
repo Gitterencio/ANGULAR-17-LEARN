@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/ag-17-app/dist
+/ag-17-app/tmp
+/ag-17-app/out-tsc
+/ag-17-app/bazel-out
+
+# Node
+/ag-17-app/node_modules
+/ag-17-app/npm-debug.log
+/ag-17-app/yarn-error.log
+
+# IDEs and editors
+/ag-17-app.idea/
+/ag-17-app/.project
+/ag-17-app/.classpath
+/ag-17-app/.c9/
+/ag-17-app/*.launch
+/ag-17-app/.settings/
+/ag-17-app/*.sublime-workspace
+
+# Visual Studio Code
+/ag-17-app/.vscode/*
+/ag-17-app/!.vscode/settings.json
+/ag-17-app/!.vscode/tasks.json
+/ag-17-app/!.vscode/launch.json
+/ag-17-app/!.vscode/extensions.json
+/ag-17-app/.history/*
+
+# Miscellaneous
+/ag-17-app/.angular/cache
+/ag-17-app/.sass-cache/
+/ag-17-app/connect.lock
+/ag-17-app/coverage
+/ag-17-app/libpeerconnection.log
+/ag-17-app/testem.log
+/ag-17-app/typings
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+ANGULAR 17 USO
+ng new ag-app --standalone false 
+    para generar multiples componentes
+
+
+ng serve --open
+
+angular.json
+        "serve": {
+          "options": {
+            "host": "0.0.0.0"
+          },
+
+ ng g c games --skip-tests --inline-style --inline-template 
+
+
+ CARGA DIFERIDA DE DATOS
+
+
+
+ DOCUMENTACION
+ DOCUSAURUS 
+ ASTRO STARLIGHT
+ GITBOOK DE PAGA
