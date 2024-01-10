@@ -1,4 +1,4 @@
-ANGULAR 17 USO
+ANGULAR 17 USO (actulizar todo, npm y node)
 ng new ag-app --standalone false 
     para generar multiples componentes
 
@@ -26,5 +26,10 @@ ag-17-app
 
  ANGULAR SSR INTENSIVO
 
-              (no git)
+              (no <i class="fas fa-github-square    "></i>)
  ng new app -g
+
+
+ APP ANGULAR CON TAILWIND
+
+ pagina tailwindocss
