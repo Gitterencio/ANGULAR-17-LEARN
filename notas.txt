@@ -25,3 +25,6 @@ ag-17-app
 
 
  ANGULAR SSR INTENSIVO
+
+              (no git)
+ ng new app -g
