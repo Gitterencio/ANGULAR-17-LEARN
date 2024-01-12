@@ -1,0 +1,7 @@
+{
+  "name": "basico",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

@@ -33,3 +33,11 @@ ag-17-app
  APP ANGULAR CON TAILWIND
 
  pagina tailwindocss
+
+
+ IONIC
+ PROYECTO GENERADO DE IONIC FALLAN LOS ESTILOS ESTILOS 
+
+ ANGULAR ADD IONIC 
+ ng add @ionic/angular                          
+ ng add @angular/pwa
