@@ -1,0 +1,7 @@
+{
+  "name": "r&m-ag-ionic-ag",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
