@@ -20,4 +20,8 @@ export class RickAndMortyService {
     
     return this._http.get(environment.baseApi + environment.character+`/${id}`);
   }
+
+  getByUrl(url:string){
+    return this._http.get(url);
+  }
 }

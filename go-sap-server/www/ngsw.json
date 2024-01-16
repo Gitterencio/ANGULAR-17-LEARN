@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1705094070031,
+  "timestamp": 1705420243125,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,21 +11,23 @@
         "ignoreVary": true
       },
       "urls": [
+        "/171.92cf8e8f59391552.js",
         "/195.f213b6e63d9a44ac.js",
         "/236.7408419668ab83a9.js",
         "/250.d2cca6f4e02c8384.js",
-        "/255.2fb7186d0da187de.js",
-        "/313.23cefd4ed90746f4.js",
-        "/452.eac62239d4eb214b.js",
+        "/255.2e4839adb99144ad.js",
+        "/269.ac1d462b5ba89485.js",
+        "/313.383b4b54cf797e40.js",
         "/594.6110149267714db0.js",
         "/595.977adb5f788382f5.js",
-        "/957.c99c18d1a5cc225a.js",
+        "/941.2f4b1ff6f76a3159.js",
+        "/common.106f6efaef649735.js",
         "/index.html",
-        "/main.6aca178fb87b1080.js",
+        "/main.dc9b6e5c10d75d75.js",
         "/manifest.webmanifest",
         "/polyfills.847dea1b2f7b38f0.js",
-        "/runtime.e5eb5bdcff312b54.js",
-        "/styles.0d4a70ba58bd69d2.css"
+        "/runtime.e9306c7617f540e0.js",
+        "/styles.dd9f92c2d94646c6.css"
       ],
       "patterns": []
     },
@@ -46,6 +48,8 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/img/bg.gif",
+        "/assets/img/ram-logo.png",
         "/assets/shapes.svg"
       ],
       "patterns": []
@@ -53,15 +57,16 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/171.92cf8e8f59391552.js": "70651ebd7213ad982d059092b7cf68cb2a260c4d",
     "/195.f213b6e63d9a44ac.js": "f97e6db1d22fe7e996d63615729ed79de03303cc",
     "/236.7408419668ab83a9.js": "739043a9e92eb08485d29fe67b51e462e9a13e3e",
     "/250.d2cca6f4e02c8384.js": "221d6420e0874fc8177429d6b4580fdb9f80b644",
-    "/255.2fb7186d0da187de.js": "fdae9b18586c9c93ac0ab90f609b8955ea53b6cc",
-    "/313.23cefd4ed90746f4.js": "2d00f9f4ef7a5ce22fc770838e10d955572c3dd7",
-    "/452.eac62239d4eb214b.js": "95e4a9cfcd5dca4a9392f14a0f391c469bf34f6c",
+    "/255.2e4839adb99144ad.js": "c3257dc3a2720ce4bdf4b206783d9637d6d5a16b",
+    "/269.ac1d462b5ba89485.js": "386f00c2f9ee9c50fd4423c2d348ff816586a56e",
+    "/313.383b4b54cf797e40.js": "22e3dccc1812f499391b9710d01132f4905be20a",
     "/594.6110149267714db0.js": "64deb3daa642be51e746c73aadfca8218b9ee9aa",
     "/595.977adb5f788382f5.js": "83506c226c3aa18dfef558a070d636c7737ecb7f",
-    "/957.c99c18d1a5cc225a.js": "b7d51254efbb3f1964f66ba2b56ae8d97f5ca3e2",
+    "/941.2f4b1ff6f76a3159.js": "61347a14cd504b4b93c5efa8a1780660c190cf5f",
     "/assets/icon/favicon.png": "7798b8e0eb61d7375c245af78bbf5c916932bf13",
     "/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
     "/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
@@ -71,13 +76,16 @@
     "/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/assets/img/bg.gif": "14280750078c237edb3af60d6dffa46e840185c8",
+    "/assets/img/ram-logo.png": "46e9bb22946dd800b2f151c88033fa726842175d",
     "/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
-    "/index.html": "5f404bc6c9811e2b1d278a5e69b06fa20ba89f1b",
-    "/main.6aca178fb87b1080.js": "435c6db4cbd138e7a5281b08ae4eb3dfa5efa7b9",
+    "/common.106f6efaef649735.js": "c9d1ebea12f94c4b2528926120fd15956a81fc45",
+    "/index.html": "0fb8bbf96fb9290553942734abb76db02d29c00f",
+    "/main.dc9b6e5c10d75d75.js": "55ad55e3ffad48e8830396eaa688cf7b773da929",
     "/manifest.webmanifest": "9a088b7c4339228d1082e666ce105dc889bc180c",
     "/polyfills.847dea1b2f7b38f0.js": "605704d63e8727bb2a7615f6fbd1d2b7a41a93dc",
-    "/runtime.e5eb5bdcff312b54.js": "e83be08b96e7f84ddd51778f251322b62add2287",
-    "/styles.0d4a70ba58bd69d2.css": "c110f357a80b749d5599130d88dd3e32d4b772cb"
+    "/runtime.e9306c7617f540e0.js": "cfd9cb92a8b7cc9abd626a80a229b8682ba7e132",
+    "/styles.dd9f92c2d94646c6.css": "f9e2aa2f38379f2eb8fc0dddb93e8156f1dd90a5"
   },
   "navigationUrls": [
     {

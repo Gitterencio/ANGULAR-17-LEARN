@@ -1,0 +1,24 @@
+GLASSMORFISMO (div)
+https://css.glass/
+
+ANIMACIONES 
+https://xsgames.co/animatiss/
+
+TAMAÑOS RESPONSIVO ,COLUMNAS
+movil size="12"  pantallapqeueña sizeSm="12"  pantalla grande sizeLg="6" pantalla media sizeMd="6"
+
+ng add @angular/pwa
+
+COMPILAR PARA WEB
+ionic build => www (web)
+
+COMPILAR PARA APK ANDROID, REQUIERE ANDROID STUDIO
+npm install @capacitor/android
+
+ionic build
+npx cap add android =>android (android)
+
+npx cap  open android
+
+
+

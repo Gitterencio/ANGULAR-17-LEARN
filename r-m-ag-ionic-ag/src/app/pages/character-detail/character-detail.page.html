@@ -9,7 +9,57 @@
 <ion-content mode="ios">
   <div class="glass-content ion-padding">
     @if (character) {
-    <div class="ion-text-center ion-padding-top"></div>
+    <div class="ion-text-center ion-padding-top">
+      <ion-avatar>
+        @defer (on viewport) {
+        <img [src]="character.image" />
+        }@placeholder {
+        <p>Personaje</p>
+        }@loading {
+        <p>Cargando imagen del personaje</p>
+        }
+      </ion-avatar>
+      <h1>{{character.name}}</h1>
+      <div>Estatus: {{character.status == 'Alive'?'Vivo':'Muerto' }}</div>
+      <ion-item lines="none">
+        <ion-icon slot="start" name="location-outline"></ion-icon>
+        <ion-label>
+          Visto por primera vez <strong> {{character.origin.name}}</strong>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-icon slot="start" name="location-outline"></ion-icon>
+        <ion-label>
+          Visto por ultima vez <strong> {{character.location.name}}</strong>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none" class="ion-margin-top">
+        <ion-icon slot="start" name="videocam-outline"></ion-icon>
+        <ion-label>Episodios donde aparece</ion-label>
+        <ion-icon slot="end" name="chevron-down"></ion-icon>
+      </ion-item>
+
+      <ion-grid>
+        <ion-row>
+          @for (e of episodes; track $index) {
+          <ion-col sizeLg="4" sizeMd="6" sizeSm="6" size="12">
+            <ion-card>
+              <ion-card-content class="ion-text-start">
+                <strong>{{e.name}}</strong>
+                <p>{{e.episode}}</p>
+                <p>Fecha de emision: {{e.air_date | date:'dd/mm/yyyy'}}</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          }
+        </ion-row>
+      </ion-grid>
+    </div>
+    } @else {
+
+    <div class="loader">
+      <ion-spinner name="crescent"></ion-spinner>
+    </div>
     }
   </div>
 </ion-content>

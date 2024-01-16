@@ -10,6 +10,7 @@ import {
   IonHeader,
   IonInfiniteScroll,
   IonInfiniteScrollContent,
+  IonList,
   IonRow,
   IonSearchbar,
   IonTitle,
@@ -53,6 +54,7 @@ export class HomePage implements OnInit {
   }
 
   getCharacters(event?: any) {
+
     this.params.page += 1;
 
     this._randm.getCharacters(this.params).subscribe({
