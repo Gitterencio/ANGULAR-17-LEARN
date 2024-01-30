@@ -1,1 +1,0 @@
-let deferredPrompt;function seur(){document.getElementById("installApp").addEventListener("click",async()=>{if(null!==deferredPrompt){deferredPrompt.prompt();const{outcome:t}=await deferredPrompt.userChoice;"accepted"===t&&(deferredPrompt=null)}})}window.addEventListener("beforeinstallprompt",e=>{deferredPrompt=e}),console.log("bratislaba");
